@@ -1,0 +1,245 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+:root {
+    --LogoColor: #4D5AE5;
+    --MainTextColor: #2E2F42;
+    --SecondTextColor: #434455;
+}
+
+/*--------------------- STUDIO PAGE -----------------------*/
+
+/*--------------- header ---------------*/
+
+/* .header {
+}
+.header-navigation {
+} */
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--MainTextColor)
+}
+
+.header-logo-word {
+    color: var(--LogoColor)
+}
+
+/* .header-list {
+}
+.header-list-item {
+} */
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--MainTextColor)
+}
+
+/* .header-address {
+} */
+
+.address-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* .address-list-item {
+} */
+
+.address-mail {
+    color: var(--SecondTextColor)
+}
+
+.address-tel {
+    color: var(--SecondTextColor)
+}
+
+/*--------------- main ---------------*/
+
+/* .main {
+} */
+
+/*--------------- hero --------------*/
+
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/*-------------- studio advantage ---------------*/
+
+/* .studio-advantage {
+}
+.studio-advantage-list {
+}
+.studio-list-item {
+} */
+
+.studio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.studio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SecondTextColor)
+}
+
+/*-------------- studio works --------------*/
+
+/* .studio-works {
+} */
+
+.studio-works-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* .studio-works-list {
+}
+.works-list-item {
+} */
+
+/*--------------- studio team ---------------*/
+
+/* .studio-team {
+} */
+
+.studio-team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* .studio-team-list {
+}
+.studio-team-list-item {
+}
+.studio-team-member {
+} */
+
+.studio-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.studio-member-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SecondTextColor)
+}
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-link-word {
+    color: #4D5AE5;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+/*--------------------- PORTFOLIO PAGE ---------------------*/
+
+/* .portfolio-info {
+}
+.portfolio-navigation-list {
+}
+.portfolio-navigation-item {
+} */
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;
+}
+
+.portfolio-btn {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+/* .portfolio-service-list {
+}
+.portfolio-service-item {
+} */
+
+.service-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.service-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SecondTextColor)
+}
