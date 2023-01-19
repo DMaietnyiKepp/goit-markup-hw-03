@@ -40,9 +40,9 @@ img {
 }
 
 .container {
-    width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -168,7 +168,7 @@ img {
 /*-------------- studio advantage ---------------*/
 
 .studio-advantage {
-    margin-top: 120px;
+    padding-top: 120px;
 }
 
 .studio-advantage-list {
@@ -180,6 +180,7 @@ img {
 } */
 
 .studio-item-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -198,6 +199,7 @@ img {
 
 .studio-works {
     margin-top: 120px;
+    padding-bottom: 120px;
 }
 
 .studio-works-title {
@@ -221,12 +223,12 @@ img {
 /*--------------- studio team ---------------*/
 
 .studio-team {
-    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: #F4F4FD;
 }
 
 .studio-team-title {
-    padding-top: 120px;
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
@@ -236,7 +238,6 @@ img {
 
 .studio-team-list {
     margin-top: 72px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
@@ -304,11 +305,12 @@ img {
 
 /*--------------------- PORTFOLIO PAGE ---------------------*/
 
-/* .portfolio-info {
-} */
+.portfolio-info {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .portfolio-navigation-list {
-    padding-top: 96px;
     margin-bottom: 72px;
     display: flex;
     gap: 24px;
@@ -344,7 +346,6 @@ img {
 }
 
 .portfolio-service-list {
-    padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -358,13 +359,14 @@ img {
 }
 
 .service-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
     background: #FFFFFF;
 }
 
 .service-item-title {
     margin-bottom: 8px;
-    padding-top: 32px;
-    padding-left: 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -372,8 +374,6 @@ img {
 }
 
 .service-item-text {
-    padding-bottom: 32px;
-    padding-left: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
